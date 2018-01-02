@@ -1,0 +1,130 @@
+.portfolio {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  margin: 2em 0; }
+  .portfolio .portfolio-wrapper {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    width: 100%;
+    margin: 2em 0; }
+    @media screen and (max-width: 780px) {
+      .portfolio .portfolio-wrapper {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column; } }
+    .portfolio .portfolio-wrapper .portfolio-item {
+      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+      background-size: cover;
+      width: 48.25%;
+      height: 200px;
+      margin: .65% 0;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: end;
+      -ms-flex-pack: end;
+      justify-content: flex-end; }
+      @media screen and (max-width: 780px) {
+        .portfolio .portfolio-wrapper .portfolio-item {
+          width: 100%;
+          margin: .5em 0; } }
+      .portfolio .portfolio-wrapper .portfolio-item .see-more-btn {
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+        width: 50%;
+        height: 50px;
+        font-family: "Ubuntu", sans-serif;
+        color: #454545;
+        font-size: 18px;
+        font-weight: 500;
+        background-color: #b69b67;
+        outline: none;
+        border: 0;
+        cursor: pointer; }
+      .portfolio .portfolio-wrapper .portfolio-item .info-card {
+        width: 50%;
+        -webkit-transition: 0.6s;
+        transition: 0.6s;
+        background-color: #b69b67; }
+        @media screen and (max-width: 780px) {
+          .portfolio .portfolio-wrapper .portfolio-item .info-card {
+            width: 270px; } }
+        .portfolio .portfolio-wrapper .portfolio-item .info-card .info-card-content {
+          margin: 1em;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          height: 10em;
+          -ms-flex-line-pack: justify;
+          align-content: space-between;
+          -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
+          .portfolio .portfolio-wrapper .portfolio-item .info-card .info-card-content .info-card-heading {
+            -webkit-transition: 1s;
+            transition: 1s;
+            font-family: "Ubuntu", sans-serif;
+            color: #454545; }
+          .portfolio .portfolio-wrapper .portfolio-item .info-card .info-card-content .info-card-description {
+            font-size: 14px;
+            -webkit-transition: 1s;
+            transition: 1s;
+            font-family: "Ubuntu", sans-serif;
+            color: #454545; }
+      .portfolio .portfolio-wrapper .portfolio-item:hover {
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -ms-grid-row-align: center;
+        align-items: center; }
+        .portfolio .portfolio-wrapper .portfolio-item:hover .see-more-btn {
+          opacity: 1;
+          -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+          -webkit-transition: 0.6s;
+          transition: 0.6s; }
+          .portfolio .portfolio-wrapper .portfolio-item:hover .see-more-btn:hover {
+            color: white;
+            -webkit-transition: 0.3s;
+            transition: 0.3s; }
+        .portfolio .portfolio-wrapper .portfolio-item:hover .info-card {
+          -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+          -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+          opacity: 0;
+          -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+          width: 0;
+          -webkit-transition: 0s;
+          transition: 0s; }
+          .portfolio .portfolio-wrapper .portfolio-item:hover .info-card .info-card-content {
+            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; }
+            .portfolio .portfolio-wrapper .portfolio-item:hover .info-card .info-card-content .info-card-heading {
+              display: none;
+              opacity: 0;
+              -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; }
+            .portfolio .portfolio-wrapper .portfolio-item:hover .info-card .info-card-content .info-card-description {
+              display: none;
+              opacity: 0;
+              -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; }

@@ -1,0 +1,236 @@
+.site-header {
+  margin: 1em 5%; }
+  .site-header .site-branding {
+    text-align: center; }
+    .site-header .site-branding .site-title a {
+      font-weight: 400;
+      font-family: "Playfair Display SC", serif;
+      text-decoration: overline;
+      color: #b69b67; }
+    .site-header .site-branding .custom-logo-link img {
+      -webkit-transition: 0.3s;
+      transition: 0.3s; }
+      @media screen and (max-width: 450px) {
+        .site-header .site-branding .custom-logo-link img {
+          width: 250px;
+          height: 45px;
+          -webkit-transition: 0.3s;
+          transition: 0.3s; } }
+    .site-header .site-branding .scroll-down-container {
+      margin: 7em 0; }
+      .site-header .site-branding .scroll-down-container .scroll-down-text {
+        font-size: 16px;
+        font-family: "Ubuntu", sans-serif;
+        font-weight: 500;
+        text-align: center;
+        color: #454545;
+        margin-bottom: 1em; }
+    .site-header .site-branding .site-description {
+      font-family: "Ubuntu", sans-serif;
+      font-size: 36px;
+      letter-spacing: 3px;
+      font-weight: 100;
+      background: -webkit-radial-gradient(circle, #b69b67, #454545 50%);
+      background: radial-gradient(circle, #b69b67, #454545 50%);
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+      -webkit-transition: 0.3s;
+      transition: 0.3s; }
+      @media screen and (max-width: 1075px) {
+        .site-header .site-branding .site-description {
+          font-size: 24px;
+          -webkit-transition: 0.3s;
+          transition: 0.3s; } }
+    .site-header .site-branding .header-menu-container {
+      margin: 2em 0; }
+      .site-header .site-branding .header-menu-container .menu-toggle {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        position: absolute;
+        right: 4.8%;
+        width: 50px;
+        height: 50px;
+        background: #303030;
+        border: #b4b4b4 solid 1px; }
+        .site-header .site-branding .header-menu-container .menu-toggle .fa {
+          color: #b4b4b4;
+          font-size: 32px; }
+        .site-header .site-branding .header-menu-container .menu-toggle:hover {
+          cursor: pointer;
+          border: #b69b67 solid 1px; }
+          .site-header .site-branding .header-menu-container .menu-toggle:hover .fa {
+            color: #b69b67; }
+      .site-header .site-branding .header-menu-container .header-menu {
+        background: #303030;
+        border: #b4b4b4 solid 1px;
+        width: 100%; }
+        .site-header .site-branding .header-menu-container .header-menu .navigation {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center; }
+        .site-header .site-branding .header-menu-container .header-menu .menu_items_off {
+          display: none; }
+      .site-header .site-branding .header-menu-container .menu_items .menu-heading {
+        margin-top: 1em; }
+      .site-header .site-branding .header-menu-container .menu_items .main-navigation {
+        font-family: "Ubuntu", sans-serif;
+        width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between; }
+        @media screen and (max-width: 1075px) {
+          .site-header .site-branding .header-menu-container .menu_items .main-navigation {
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center; } }
+        .site-header .site-branding .header-menu-container .menu_items .main-navigation .menu-links {
+          text-align: left;
+          margin: 2em 6em;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: horizontal;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+          flex-direction: row; }
+          @media screen and (max-width: 1075px) {
+            .site-header .site-branding .header-menu-container .menu_items .main-navigation .menu-links {
+              text-align: center;
+              -ms-flex-pack: distribute;
+              justify-content: space-around; } }
+          @media screen and (max-width: 600px) {
+            .site-header .site-branding .header-menu-container .menu_items .main-navigation .menu-links {
+              -webkit-box-orient: vertical;
+              -webkit-box-direction: normal;
+              -ms-flex-direction: column;
+              flex-direction: column;
+              margin: 1em 3em; } }
+          .site-header .site-branding .header-menu-container .menu_items .main-navigation .menu-links .menu-header-menu-container .menu {
+            list-style: none;
+            padding: 0; }
+            .site-header .site-branding .header-menu-container .menu_items .main-navigation .menu-links .menu-header-menu-container .menu .menu-item {
+              margin-bottom: 1em; }
+              .site-header .site-branding .header-menu-container .menu_items .main-navigation .menu-links .menu-header-menu-container .menu .menu-item a {
+                font-size: 20px;
+                color: #b4b4b4;
+                text-decoration: none; }
+              .site-header .site-branding .header-menu-container .menu_items .main-navigation .menu-links .menu-header-menu-container .menu .menu-item:hover a {
+                color: #b69b67;
+                text-decoration: overline; }
+          .site-header .site-branding .header-menu-container .menu_items .main-navigation .menu-links .sign-up-in {
+            margin-left: 4em; }
+            @media screen and (max-width: 1075px) {
+              .site-header .site-branding .header-menu-container .menu_items .main-navigation .menu-links .sign-up-in {
+                margin: 0; } }
+            @media screen and (max-width: 600px) {
+              .site-header .site-branding .header-menu-container .menu_items .main-navigation .menu-links .sign-up-in {
+                margin-top: 2em; } }
+            .site-header .site-branding .header-menu-container .menu_items .main-navigation .menu-links .sign-up-in p {
+              margin-bottom: .75em;
+              font-size: 20px;
+              color: #695631; }
+              .site-header .site-branding .header-menu-container .menu_items .main-navigation .menu-links .sign-up-in p:hover {
+                cursor: pointer; }
+            .site-header .site-branding .header-menu-container .menu_items .main-navigation .menu-links .sign-up-in a {
+              margin-bottom: .75em;
+              font-size: 20px;
+              color: #b4b4b4;
+              text-decoration: none; }
+              .site-header .site-branding .header-menu-container .menu_items .main-navigation .menu-links .sign-up-in a:hover {
+                color: #b69b67;
+                text-decoration: overline; }
+        .site-header .site-branding .header-menu-container .menu_items .main-navigation .menu-search {
+          margin: 2em;
+          margin-right: 6em; }
+          @media screen and (max-width: 1075px) {
+            .site-header .site-branding .header-menu-container .menu_items .main-navigation .menu-search {
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-box-pack: center;
+              -ms-flex-pack: center;
+              justify-content: center;
+              margin: 2em 0; } }
+          @media screen and (max-width: 600px) {
+            .site-header .site-branding .header-menu-container .menu_items .main-navigation .menu-search {
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-box-orient: vertical;
+              -webkit-box-direction: normal;
+              -ms-flex-direction: column;
+              flex-direction: column; } }
+          @media screen and (max-width: 600px) {
+            .site-header .site-branding .header-menu-container .menu_items .main-navigation .menu-search .search-form {
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-box-orient: vertical;
+              -webkit-box-direction: normal;
+              -ms-flex-direction: column;
+              flex-direction: column; } }
+          .site-header .site-branding .header-menu-container .menu_items .main-navigation .menu-search .search-form label .search-field {
+            width: 60%;
+            height: 1.5em;
+            outline: none;
+            font-size: 24px;
+            font-family: "Ubuntu", sans-serif;
+            font-weight: lighter;
+            color: #454545;
+            border: 0;
+            border-bottom: 1px solid #454545;
+            background: none; }
+            @media screen and (max-width: 600px) {
+              .site-header .site-branding .header-menu-container .menu_items .main-navigation .menu-search .search-form label .search-field {
+                width: 70%; } }
+            .site-header .site-branding .header-menu-container .menu_items .main-navigation .menu-search .search-form label .search-field::-webkit-input-placeholder {
+              color: #454545; }
+            .site-header .site-branding .header-menu-container .menu_items .main-navigation .menu-search .search-form label .search-field::-moz-placeholder {
+              color: #454545; }
+            .site-header .site-branding .header-menu-container .menu_items .main-navigation .menu-search .search-form label .search-field:-ms-input-placeholder {
+              color: #454545; }
+            .site-header .site-branding .header-menu-container .menu_items .main-navigation .menu-search .search-form label .search-field::placeholder {
+              color: #454545; }
+          .site-header .site-branding .header-menu-container .menu_items .main-navigation .menu-search .search-button {
+            height: 1.9em;
+            background-color: #303030;
+            border: 1px solid #695631;
+            color: #695631;
+            font-size: 16px;
+            font-weight: 500;
+            -webkit-transition: 0.3s;
+            transition: 0.3s; }
+            @media screen and (max-width: 600px) {
+              .site-header .site-branding .header-menu-container .menu_items .main-navigation .menu-search .search-button {
+                width: 40%;
+                margin: 1em auto; } }
+            .site-header .site-branding .header-menu-container .menu_items .main-navigation .menu-search .search-button:hover {
+              border: 1px solid #b69b67;
+              color: #b69b67;
+              cursor: pointer;
+              -webkit-transition: 0.3s;
+              transition: 0.3s; }
+      .site-header .site-branding .header-menu-container .menu_toggled_off {
+        width: 100%;
+        height: 0;
+        border: #b4b4b4 solid 0px; }
+
+.site-content {
+  margin: 1em 5%; }

@@ -1,0 +1,21 @@
+{
+  "name": "undercover",
+  "version": "1.0.0",
+  "description": "Wordpress undercover theme.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wordpress",
+    "sass",
+    "gulp"
+  ],
+  "author": "Mihajlo Marinkovic",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.23.1",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
+}

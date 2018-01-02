@@ -1,0 +1,147 @@
+@import "../variables/variables.scss";
+
+.portfolio {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    margin: 2em 0;
+    .portfolio-wrapper {
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+        width: 100%;
+        margin: 2em 0;
+        @media screen and(max-width: 780px) {
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+        }
+        .portfolio-item {
+            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+            background-size: cover;
+            width: 48.25%;
+            height: 200px;
+            margin: .65% 0;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: end;
+                -ms-flex-pack: end;
+                    justify-content: flex-end;
+            @media screen and(max-width: 780px) {
+                width: 100%;
+                margin: .5em 0;
+            }
+            .see-more-btn {
+                opacity: 0;
+                -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+                width: 50%;
+                height: 50px;
+                font-family: $font_ubuntu;
+                color: $color_text_black;
+                font-size: 18px;
+                font-weight: 500;
+                background-color: $color_link;
+                outline: none;
+                border: 0;
+                cursor: pointer;
+            }
+            .info-card {
+                width: 50%;
+                -webkit-transition: $transition_medium;
+                transition: $transition_medium;
+                background-color: $color_link;
+                @media screen and(max-width: 780px) {
+                    width: 270px;
+                }
+                .info-card-content {
+                    margin: 1em;
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                    display: flex;
+                    height: 10em;
+                    -ms-flex-line-pack: justify;
+                        align-content: space-between;
+                    -ms-flex-wrap: wrap;
+                        flex-wrap: wrap;
+                    .info-card-heading {
+                        -webkit-transition: $transition_slow;
+                        transition: $transition_slow;
+                        font-family: $font_ubuntu;
+                        color: $color_text_black;
+                    }
+                    .info-card-description {
+                        font-size: 14px;
+                        -webkit-transition: $transition_slow;
+                        transition: $transition_slow;
+                        font-family: $font_ubuntu;
+                        color: $color_text_black;
+                    }
+                }
+            }
+            &:hover {
+                -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+                -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+                -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+                -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+                -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                        justify-content: center;
+                -webkit-box-align: center;
+                    -ms-flex-align: center;
+                            -ms-grid-row-align: center;
+                        align-items: center;
+                .see-more-btn {
+                    opacity: 1;
+                    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+                    -webkit-transition: $transition_medium;
+                    transition: $transition_medium;
+                    &:hover {
+                        color: white;
+                        -webkit-transition: $transition_fast;
+                        transition: $transition_fast;
+                    }
+                }
+                .info-card {
+                    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+                    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+                    opacity: 0;
+                    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+                    width: 0;
+                    -webkit-transition: 0s;
+                    transition: 0s;
+                    .info-card-content {
+                        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+                        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+                        .info-card-heading {
+                            display: none;
+                            opacity: 0;
+                            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+                        }
+                        .info-card-description {
+                            display: none;
+                            opacity: 0;
+                            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

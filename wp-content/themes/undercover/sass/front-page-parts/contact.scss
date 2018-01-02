@@ -1,0 +1,72 @@
+@import "../variables/variables.scss";
+
+.contact {
+    font-family: $font_ubuntu;
+    font-size: 24px;
+    .contact-field {
+        padding: 0;
+        width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between; 
+        @media screen and(max-width: 860px) {
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                        -ms-grid-row-align: center;
+                    align-items: center;
+        }
+        .contact-field-info {
+            text-align: center;
+            padding: 0;
+            width: 30%;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+            @media screen and(max-width: 860px) {
+                padding: 1em 0;
+                width: 100%;
+            }
+            li {
+                list-style: none;
+                p {
+                    font-size: 20px;
+                    -webkit-transition: $transition_fast;
+                    transition: $transition_fast;
+                    color: $color_text_light;
+                    @media screen and(max-width: 860px) {
+                        font-size: 32px;
+                        -webkit-transition: $transition_fast;
+                        transition: $transition_fast;
+                    }
+                    @media screen and(max-width: 3750px) {
+                        font-size: 22px;
+                        -webkit-transition: $transition_fast;
+                        transition: $transition_fast;
+                    }
+                }
+            }
+        }
+        h2 {
+            margin: .5em 0;
+            text-decoration: overline;
+            color: $color_link;
+            font-size: 20px;
+            @media screen and(max-width: 860px) {
+                font-size: 36px;
+            }
+        }
+    }
+}

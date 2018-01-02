@@ -1,0 +1,100 @@
+.feedback {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 2em 0; }
+  @media screen and (max-width: 950px) {
+    .feedback {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; } }
+  .feedback .feedback-wrapper {
+    width: 50%;
+    font-family: "Ubuntu", sans-serif; }
+    @media screen and (max-width: 950px) {
+      .feedback .feedback-wrapper {
+        width: 100%; } }
+    .feedback .feedback-wrapper .comment {
+      width: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin: 1em 0; }
+      .feedback .feedback-wrapper .comment .user-image img {
+        -o-object-fit: cover;
+        object-fit: cover;
+        width: 70px;
+        height: 70px; }
+      .feedback .feedback-wrapper .comment .comment-text {
+        margin-left: 1em;
+        color: #b4b4b4;
+        font-size: 18px;
+        line-height: 25px; }
+    .feedback .feedback-wrapper .separation-line {
+      margin: .5em 0;
+      border-color: #b69b67; }
+    .feedback .feedback-wrapper .username {
+      width: 100%;
+      text-align: right;
+      color: #b69b67; }
+  .feedback .contact-us-wrapper {
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    @media screen and (max-width: 950px) {
+      .feedback .contact-us-wrapper {
+        width: 100%; } }
+    .feedback .contact-us-wrapper .contact-form {
+      text-align: center; }
+      .feedback .contact-us-wrapper .contact-form .wpcf7-text {
+        font-family: "Ubuntu", sans-serif;
+        width: 100%;
+        height: 30px;
+        margin: .5em 0;
+        font-size: 16px;
+        outline: none;
+        background-color: #303030;
+        border: 1px solid #b4b4b4;
+        color: #b4b4b4; }
+      .feedback .contact-us-wrapper .contact-form .wpcf7-textarea {
+        font-family: "Ubuntu", sans-serif;
+        width: 99.5%;
+        height: 140px;
+        resize: none;
+        margin: .5em 0;
+        font-size: 16px;
+        outline: none;
+        background-color: #303030;
+        border: 1px solid #b4b4b4;
+        color: #b4b4b4; }
+      .feedback .contact-us-wrapper .contact-form .wpcf7-submit {
+        font-family: "Ubuntu", sans-serif;
+        font-size: 24px;
+        width: 140px;
+        height: 40px;
+        outline: none;
+        border: 1px solid #b69b67;
+        color: #b69b67;
+        background: #303030;
+        -webkit-transition: 0.3s;
+        transition: 0.3s; }
+        .feedback .contact-us-wrapper .contact-form .wpcf7-submit:hover {
+          color: #b4b4b4;
+          border: 1px solid #b4b4b4;
+          -webkit-transition: 0.3s;
+          transition: 0.3s;
+          cursor: pointer; }
+      .feedback .contact-us-wrapper .contact-form .wpcf7-response-output {
+        border: 1px solid #b4b4b4;
+        color: #454545; }
+      .feedback .contact-us-wrapper .contact-form .wpcf7-not-valid-tip {
+        color: #454545; }

@@ -1,0 +1,64 @@
+.contact {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 24px; }
+  .contact .contact-field {
+    padding: 0;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+    @media screen and (max-width: 860px) {
+      .contact .contact-field {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -ms-grid-row-align: center;
+        align-items: center; } }
+    .contact .contact-field .contact-field-info {
+      text-align: center;
+      padding: 0;
+      width: 30%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; }
+      @media screen and (max-width: 860px) {
+        .contact .contact-field .contact-field-info {
+          padding: 1em 0;
+          width: 100%; } }
+      .contact .contact-field .contact-field-info li {
+        list-style: none; }
+        .contact .contact-field .contact-field-info li p {
+          font-size: 20px;
+          -webkit-transition: 0.3s;
+          transition: 0.3s;
+          color: #b4b4b4; }
+          @media screen and (max-width: 860px) {
+            .contact .contact-field .contact-field-info li p {
+              font-size: 32px;
+              -webkit-transition: 0.3s;
+              transition: 0.3s; } }
+          @media screen and (max-width: 3750px) {
+            .contact .contact-field .contact-field-info li p {
+              font-size: 22px;
+              -webkit-transition: 0.3s;
+              transition: 0.3s; } }
+    .contact .contact-field h2 {
+      margin: .5em 0;
+      text-decoration: overline;
+      color: #b69b67;
+      font-size: 20px; }
+      @media screen and (max-width: 860px) {
+        .contact .contact-field h2 {
+          font-size: 36px; } }

@@ -1,0 +1,81 @@
+@import "../variables/variables.scss";
+
+footer {
+    margin: 1em 5%;
+    .footer-image-top {
+        padding: 1em 0;
+        text-align: center;
+        img {
+            width: 30%;
+            height: 30%;
+        }
+    }
+    .footer-image-bottom {
+        padding: 1em 0;
+        text-align: center;
+        img {
+            width: 50%;
+        }
+    }
+    .footer-text {
+        text-align: center;
+        font-family: $font_ubuntu;
+        font-size: 36px;
+        letter-spacing: 3px;
+        font-weight: 100;
+        padding: 1em 0;
+        background: -webkit-radial-gradient(circle, $color_link, $color_text_black 50%);
+        background: radial-gradient(circle, $color_link, $color_text_black 50%);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        @media screen and(max-width: 600px) {
+            font-size: 24px;
+            -webkit-transition: 5;
+            transition: 5
+        }
+    }
+}
+.menu-footer-menu-container {
+    .menu {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        padding: 0;
+        @media screen and(max-width: 600px) {
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                        -ms-grid-row-align: center;
+                    align-items: center;
+        }
+        .menu-item {
+            list-style: none;
+            font-family: $font_ubuntu;
+            padding: 0 .5em;
+            @media screen and(max-width: 600px) {
+                padding: .5em 0;
+            }
+            a {
+                text-decoration: none;
+                color: $color_text-light;
+                -webkit-transition: $transition_fast;
+                transition: $transition_fast;
+                @media screen and(max-width: 600px) {
+                    font-size: 22px;
+                }
+                &:hover {
+                    color: $color_link;
+                    text-decoration: underline;
+                    -webkit-transition: $transition_fast;
+                    transition: $transition_fast;
+                }
+            }
+        } 
+    }   
+}

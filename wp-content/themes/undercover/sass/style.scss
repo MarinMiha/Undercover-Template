@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+}
+
+@import "variables/variables.scss";
+
+body {
+    background: $color_background;
+}
+
+@import "front-page-parts/feedbacks.scss";
+@import "front-page-parts/footer.scss";
+@import "front-page-parts/header.scss";
+@import "front-page-parts/portfolio.scss";
+@import "front-page-parts/contact.scss";
+@import "front-page-parts/services.scss";
+
+
+h1 {
+    text-align: center;
+    color: $color_text_light;
+    font-size: 36px;
+    font-family: $font_playfair;
+    font-weight: bold;
+}
